@@ -15,6 +15,6 @@ jobs:
         with:
           node-version: '16'
       
-      - run: cd server
+      - run: cd server && npm run start
       
-      - run: cd client
+      - run: cd client && npm run start
