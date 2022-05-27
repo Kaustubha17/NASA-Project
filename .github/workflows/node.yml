@@ -20,5 +20,3 @@ jobs:
       - run: cd client && npm install
       
       - run: npm run build --prefix client
-      
-      - run: npm start --prefix server
